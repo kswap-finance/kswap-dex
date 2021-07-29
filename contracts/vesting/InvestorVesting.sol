@@ -9,8 +9,6 @@ import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
 import "@openzeppelin/contracts/utils/EnumerableSet.sol";
 
-// 必须在第一个周期内全部添加完毕，不然会有问题
-
 contract InvestorVesting is Ownable {
     using SafeMath for uint256;
     using SafeERC20 for IERC20;
