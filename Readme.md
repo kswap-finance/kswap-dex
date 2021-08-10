@@ -1,6 +1,6 @@
 # NOTICE
 
-We do not recommend any farming tools (中文：机枪池) to interact with the liquidity pool or deposit pool contract. If you have already linked with these two contracts, you can get your lp or token back by calling `emergencywithdraw`.  
+We do not recommend any farming tools (中文：机枪池) to interact with the liquidity pool or deposit pool contract. In these two contract, we use `tx.origin` instead of `msg.sender` in the withdraw function. If you have already linked with these two contracts, you can get your lp or token back by calling `emergencywithdraw`.  
 
 
 ## Smart Contract Addresses
