@@ -1,6 +1,6 @@
 # NOTICE
 
-We do not recommend any farming tools (中文：机枪池) to interact with the liquidity pool or deposit pool contract. If you have already linked with these two, you can get your lp or token back by calling `emergencywithdraw`, but the KST rewards will be lost.  
+We do not recommend any farming tools (中文：机枪池) to interact with the liquidity pool or deposit pool contract. If you have already linked with these two contracts, you can get your lp or token back by calling `emergencywithdraw`, but the KST rewards will be lost.  
 
 
 ## Smart Contract Addresses
