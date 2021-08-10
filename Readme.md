@@ -1,3 +1,8 @@
+# NOTICE
+
+We do not recommend any farming tools (中文：机枪池) to interact with the liquidity pool or deposit pool contract. If you have already linked with these two, you can get your lp or token back by calling `emergencywithdraw`, but the KST rewards will be lost.  
+
+
 ## Smart Contract Addresses
 
 KswapToken=0xab0d1578216A545532882e420A8C61Ea07B00B12
@@ -21,3 +26,5 @@ TeamVesting=0xaFA0Ae68E5b4a38c619d6139b2cA1aD418f14c14
 InvestorVesting=0xa6b91cd9A82C73D7341Ad4A7add8d020A5874b49
 
 InitCodeHash=0x73fce53e0c877f17bc03bb34eead12c2c3f30d3493cff1259744d0c0dfcb3a92
+
+
